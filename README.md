@@ -41,6 +41,8 @@ cd trelltech
 
 flutter pub get
 
+**ADD YOUR API KEY**:
+ Add your API key in the file trello_api.dart
 **Run the application**:
 
 flutter run

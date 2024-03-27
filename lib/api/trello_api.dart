@@ -2,8 +2,8 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class TrelloAPI {
-  static const String apiKey = '';
-  static const String apiToken = '';
+  static const String apiKey = 'YOUR_API_KEY';
+  static const String apiToken = 'YOUR_API_TOKEN';
 
   static Future<void> createTrelloBoard(String boardName) async {
     final Uri url = Uri.parse(
